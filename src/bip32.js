@@ -4,7 +4,7 @@ const crypto = require("./crypto");
 const testecc_1 = require("./testecc");
 const bs58check = require('bs58check');
 const typeforce = require('typeforce');
-const wif = require('wif');
+const wif = require('wif-tdcoin');
 function BIP32Factory(ecc) {
     testecc_1.testEcc(ecc);
     const UINT256_TYPE = typeforce.BufferN(32);
