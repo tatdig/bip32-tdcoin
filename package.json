@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitcoinjs/bip32.git"
+    "url": "git+https://github.com/tatdig/bip32-tdcoin.git"
   },
   "files": [
     "src",
@@ -42,7 +42,7 @@
     "create-hash": "^1.2.0",
     "create-hmac": "^1.1.7",
     "typeforce": "^1.11.5",
-    "wif": "^2.0.6"
+    "wif-tdcoin": "git+https://github.com/tatdig/wif-tdcoin.git"
   },
   "devDependencies": {
     "nyc": "^15.0.0",
@@ -55,6 +55,6 @@
   "author": "Daniel Cousens",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitcoinjs/bip32/issues"
+    "url": "https://github.com/tatdig/bip32-tdcoin/issues"
   }
 }
